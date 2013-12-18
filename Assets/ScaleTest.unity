@@ -205,6 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d374420550739c84bbc520e05af58c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubePrefab: {fileID: 100000, guid: a58020d7d031abb46890635a6c033050, type: 2}
   dynamicObjectRoot: {fileID: 1949755952}
 --- !u!1 &1949755952
 GameObject:

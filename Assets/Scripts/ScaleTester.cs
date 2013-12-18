@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ScaleTester : MonoBehaviour
 {
+	public GameObject cubePrefab;
 	public GameObject dynamicObjectRoot;
 
 	private int scaleLevel;
