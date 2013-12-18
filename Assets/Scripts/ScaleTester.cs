@@ -5,6 +5,10 @@ public class ScaleTester : MonoBehaviour
 	public GameObject cubePrefab;
 	public GameObject dynamicObjectRoot;
 
+	public int CurrentObjectCount {
+		get { return ScaleToNumObjects(scaleLevel); }
+	}
+
 	private int scaleLevel;
 
 	public void ScaleDown() {
